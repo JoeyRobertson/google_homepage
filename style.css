@@ -1,0 +1,37 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+#top_bar {
+  min-width: 241px;
+  float: right;
+}
+
+#top_bar img {
+  width: 30px;
+  height: 30px;
+}
+
+.center {
+  height: 233px;
+  margin-top: 89px;
+  margin: auto;
+  display: block;
+}
+
+input {
+  position: absolute;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  line-height: 24px;
+  font-size: 13px;
+}
