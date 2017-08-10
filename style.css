@@ -14,18 +14,47 @@
 }
 
 .center {
-  height: 233px;
-  width: 50%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
+  position: fixed;
+  top: 25%;
+  text-align: center;
+  width: 100%;
 }
 
 .center img {
-  max-width: 272px;
-  max-height: 201px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 92px;
+}
+
+.center input {
+  -webkit-appearance: none;
+  width: 600px;
+  height: 40px;
+  border: 1px solid #f4f4f4;
+  border-radius: 1px;
+  box-shadow: 0 2px 2px rgb(203, 203, 203);
+  line-height: normal;
+  font-family: Arial, sans-serif;
+  /*background: url(https://infogalactic.com/w/images/2/22/Google_microphone_logo.png);
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 14px; */
+}
+
+.center input:hover{
+  box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
+}
+
+button {
+  margin-right: 6px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 2px;
+  background-color: #f4f4f4;
+  font-weight: bold;
 }
 
 .search {
