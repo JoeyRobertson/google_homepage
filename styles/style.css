@@ -1,6 +1,6 @@
 * {
   font-family: arial, sans-serif;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 
 #top_bar {
@@ -9,8 +9,8 @@
 }
 
 #top_bar img {
-  width: 20px;
-  height: 20px;
+  opacity: .55;
+  color: #000;
 }
 
 #top_bar button {
@@ -91,13 +91,20 @@ button:hover {
   left: 0;
   padding: 1rem;
   background-color: #f2f2f2;
+  color: #666;
   text-align: center;
   clear: both;
   border-top: 1px solid #e4e4e4;
 }
 
-.left {
+#left {
+  float: left;
+  margin-left: 30px;
+}
 
+#right {
+  float: right;
+  margin-right: 30px;
 }
 
 ul {
