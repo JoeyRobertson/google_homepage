@@ -50,16 +50,21 @@
   border-radius: 1px;
   box-shadow: 0 2px 2px rgb(203, 203, 203);
   line-height: normal;
-  font-family: Arial, sans-serif;
+  font: 16px Arial, sans-serif;
   background: url(https://infogalactic.com/w/images/2/22/Google_microphone_logo.png);
   background-repeat: no-repeat;
   background-position: right 15px center;
   background-size: 14px;
 }
 
-.center input:hover{
+.center input:hover {
   box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
 }
+
+input:focus {
+  outline: none;
+}
+
 
 button {
   margin-right: 6px;
