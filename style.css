@@ -1,5 +1,6 @@
 * {
   font-family: arial, sans-serif;
+/*  border: 1px solid black; */
 }
 
 #top_bar {
@@ -14,14 +15,39 @@
 
 .center {
   height: 233px;
-  margin-top: 89px;
-  margin: auto;
-  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.center img {
+  max-width: 272px;
+  max-height: 201px;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  text-align: center;
+  clear: both;
+  border-top: 1px solid #e4e4e4;
+}
+
+.left {
+
 }
 
 input {
   position: absolute;
   width: 100%;
+  border-radius: 5px;
+  margin: auto;
 }
 
 ul {
