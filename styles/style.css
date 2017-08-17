@@ -3,28 +3,83 @@
   /*border: 1px solid black;*/
 }
 
-#top_bar {
+.top_bar {
   min-width: 241px;
   float: right;
 }
 
-#top_bar li {
+.search_top_bar {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 15px;
+
+}
+
+.top_bar li {
   padding-right: 8px;
   margin-top: -10 px;
 }
 
-#top_bar img {
+.top_bar img {
   position: relative;
   top: 12px ;
   opacity: .55;
   color: #000;
 }
 
-#top_bar button {
+#search_top_bar img {
+  height: 44px;
+  margin: 20px 5px 0 9px;
+}
+
+#menu img {
+  height: 27px;
+  width: 34px;
+  opacity: .55;
+  color: #000;
+}
+
+#menu {
+  min-width: 241px;
+  float: right;
+  margin: -60px -85px 0 0;
+}
+
+.top_bar button, #search_top_bar button {
   background-color: #4683ea;
   color: white;
   font-weight: bold;
   border: 1px solid #4285f4;
+}
+
+#sign {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 6px;
+  padding: 6px 12px;
+}
+
+.search_options {
+  margin-top: 15px;
+}
+
+#search_top_bar li {
+  padding: 28px 16px 12px;
+  line-height: 15px;
+  height: 15px;
+}
+
+#active {
+  margin-left: 150px;
+  margin-top: 28px;
+  border-bottom: 3px solid #4258f4;
+  font-weight: bold;
+}
+
+#settings {
+  position: fixed;
+  margin-left: 700px;
+  margin-top: -20px;
 }
 
 .center {
@@ -57,7 +112,17 @@
   background-size: 14px;
 }
 
-.center input:hover {
+#search_top_bar input {
+  -webkit-appearance: none;
+  width: 700px;
+  height: 34px;
+  position: absolute;
+  margin: -45px 0 0 160px;
+  box-shadow: 0 2px 2px rgb(203, 203, 203);
+  border: 0;
+}
+
+.center input:hover, #search_top_bar input {
   box-shadow: 1px 3px 3px 1px rgba(0,0,0,0.2);
 }
 
@@ -113,12 +178,12 @@ button:hover {
   padding-right: 8px;
 }
 
-#left {
+.left {
   float: left;
   margin-left: 30px;
 }
 
-#right {
+.right {
   float: right;
   margin-right: 30px;
 }
