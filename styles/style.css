@@ -3,24 +3,24 @@
   /*border: 1px solid black;*/
 }
 
-#top_bar {
+.top_bar {
   min-width: 241px;
   float: right;
 }
 
-#top_bar li {
+.top_bar li {
   padding-right: 8px;
   margin-top: -10 px;
 }
 
-#top_bar img {
+.top_bar img {
   position: relative;
   top: 12px ;
   opacity: .55;
   color: #000;
 }
 
-#top_bar button {
+.top_bar button {
   background-color: #4683ea;
   color: white;
   font-weight: bold;
@@ -113,12 +113,12 @@ button:hover {
   padding-right: 8px;
 }
 
-#left {
+.left {
   float: left;
   margin-left: 30px;
 }
 
-#right {
+.right {
   float: right;
   margin-right: 30px;
 }
